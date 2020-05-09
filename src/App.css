@@ -1,0 +1,42 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: darkgreen;
+    background-color: darkgrey;
+    padding: 1em;
+    border: 4px groove goldenrod;
+}
+
+button {
+    background-color: darkseagreen;
+    color: darkslategrey;
+    padding: .5em;
+    margin: .5em;
+    border: 5px groove darkslateblue;
+}
+
+.to-do-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: goldenrod;
+    padding: 1em;
+    width: 254.25px;
+    border: 4px groove darkgray;
+}
+
+p {
+    border: 2px solid darkslateblue;
+    border-radius: 20%;
+    padding: .5em;
+}
